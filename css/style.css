@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* 
+font-family: "Oswald", sans-serif;
+font-family: "Poppins", sans-serif; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --facebook: #1877f2;
+  --instagram: #e4405f;
+  --youtube: #cd201f;
+  --twitter: #1da1f2;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+.btn {
+  background-color: #007ef3;
+  color: #fff;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border: 1px solid #007ef3;
+  transition: 0.4s;
+}
+.btn1 {
+  border: 2px solid #007ef3;
+  background-color: white;
+  color: #007ef3;
+  padding: 1rem 1.5rem;
+}
+h1 {
+  font-size: 3.2rem;
+}
+p {
+  font-size: 1.6rem;
+}
+
+.container {
+  display: flex;
+  width: 1200px;
+  margin: 0% auto;
+}
+/* ############## HEADER ####################  */
+header {
+  width: 100%;
+  height: auto;
+  padding: 1rem 0rem;
+}
+header .container {
+  align-items: center;
+  justify-content: space-between;
+}
+header ul {
+  display: flex;
+}
+
+header .logo {
+  font-size: 1.6rem;
+  font-family: "Oswald", sans-serif;
+}
+header ul li a {
+  display: inline-block;
+  padding: 1rem 2.2rem;
+  transition: 0.3s;
+}
+header ul li a:hover {
+  color: #007ef3;
+  font-weight: 500;
+}
+header .login-btn {
+  background-color: #007ef3;
+  color: #fff;
+}
+header .login-btn:hover {
+  background-color: #fff;
+  color: #007ef3;
+  border: 2px solid #007ef3;
+}
+
+/* ########################### BANNER ########################## */
+
+.banner {
+  padding-top: 2.5rem;
+}
+.banner .container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner h1 {
+  font-size: 4rem;
+  font-weight: 300;
+}
+.banner h1 b {
+  color: #007ef3;
+}
+.banner p {
+  padding: 2rem 0;
+}
+.banner .ba-img {
+  width: 45%;
+}
+.banner .ba-img img {
+  width: 100%;
+}
+.banner .content {
+  position: relative;
+}
+.banner .content .arrow {
+  position: absolute;
+  right: -32px;
+  bottom: -5px;
+  transform: rotate(53deg);
+}
+.banner .content .btn:hover {
+  background-color: #fff;
+  color: #007ef3;
+  border: 1px solid #007ef3;
+  font-weight: 500;
+}
+/* ############################### NEWS ################################ */
+.whyjoin {
+  background-color: #007ef3;
+  padding: 7rem;
+  margin-bottom: 2rem;
+  margin-top: -2.4rem;
+}
+
+.whyjoin .container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.whyjoin .heading {
+  padding: 2rem;
+  text-align: right;
+  border-right: 5px solid rgba(252, 251, 249, 0.2);
+}
+
+.whyjoin .para {
+  color: #fff;
+  padding: 2rem;
+}
+
+/* ############################ COURSES ####################### */
+.courses {
+  margin-bottom: 5rem;
+}
+.course-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.course-content {
+  display: flex;
+}
+
+.courses .heading {
+  width: 100%;
+  text-align: center;
+  margin: 5rem 0;
+}
+.courses .heading h2 {
+  font-size: 3.4rem;
+}
+
+.card {
+  width: 33.33%;
+  margin: 0 1rem;
+  box-shadow: 6px 7px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 47%;
+}
+
+.card .card-content {
+  padding: 0.5rem 2rem;
+}
+.card .card-content h2 {
+  font-size: 2.4rem;
+  margin: 0.5rem 0rem;
+  font-weight: 600;
+}
+.card .card-content p {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.card .card-content .buttons {
+  margin-top: 1.5rem;
+}
+.card .card-content .buttons a {
+  margin-right: 1rem;
+}
+
+/* ################################# footer ################################  */
+footer {
+  width: 100%;
+  height: auto;
+  padding: 2rem 0;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-content ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-content ul li {
+  margin-right: 2rem;
+}
+.footer-content .fa {
+  font-size: 2.5rem;
+}
+.footer-content .logo {
+  font-size: 1.6rem;
+  font-family: "Oswald", sans-serif;
+}
+footer .social-media ul li a {
+  transition: 0.4s;
+}
+footer .social-media li:nth-child(1) a:hover {
+  color: var(--facebook);
+}
+footer .social-media li:nth-child(2) a:hover {
+  color: var(--instagram);
+}
+footer .social-media li:nth-child(3) a:hover {
+  color: var(--twitter);
+}
+footer .social-media li:nth-child(4) a:hover {
+  color: var(--youtube);
+}
+
+/* ########## COPYRIGHT ##########  */
+.copyright {
+  width: 100%;
+}
+.copyright-container {
+  justify-content: space-between;
+}
+.copyright .content1 {
+  display: flex;
+}
+
+.copyright .content1 ul {
+  display: flex;
+}
+.copyright .content1 ul li {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+.copyright .content2 p {
+  font-size: 1.4rem;
+}
